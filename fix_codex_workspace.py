@@ -82,6 +82,9 @@ try:
     for tid, cwd in thread_map.items():
         c.execute("UPDATE threads SET cwd = ? WHERE id = ?", (cwd, tid))
     conn.commit()
+    # Strip \\?\ prefix from remaining threads
+    c.execute("UPDATE threads SET cwd = REPLACE(cwd, '\\\\?\\', '') WHERE cwd LIKE '\\\\?\\%'")
+    conn.commit()
     conn.close()
     print(f"       SQLite 已更新 ({len(thread_map)} 条)")
 except Exception as e:
