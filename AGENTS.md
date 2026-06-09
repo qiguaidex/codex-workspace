@@ -1,7 +1,7 @@
 ﻿# Codex 工作约束
 
 ## 启动
-每次新会话先读 `WORKSPACE.md` 和 `PITFALLS.md` 建立上下文。
+每次新会话先读 `WORKSPACE.md` 和 `PITFALLS.md`。对照 PITFALLS 的行为模式段自查：当前任务是否会触发已知模式？
 
 ## 语言
 对话、注释、文档用中文。代码标识符和技术术语保留原文。
