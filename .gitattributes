@@ -1,4 +1,4 @@
-# 统一换行符为 LF，防止 Windows CRLF 警告
+﻿# 统一换行符为 LF，防止 Windows CRLF 警告
 * text=auto
 *.md text eol=lf
 *.py text eol=lf

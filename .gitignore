@@ -1,3 +1,7 @@
-Projects-*/
+﻿Projects-*/
 
 __pycache__/
+*.pyc
+node_modules/
+null/
+.codex/
