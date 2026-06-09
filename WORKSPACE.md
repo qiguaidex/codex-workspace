@@ -25,6 +25,7 @@ D:\workspace\
 ├── AGENTS.md                 ← 原则文件（行为约束）
 ├── libs/                     ← 可导入的共享库
 ├── templates/                ← 项目脚手架模板（一次性复制）
+├── screenshots/              ← 截图共享目录
 ├── work/                     ← 临时分析脚本
 ├── Projects-01-个人助理/      ← 飞书/Coze/元域AI 个人助理
 ├── Projects-02-抖音运营/      ← 抖音文案运营网页工具
